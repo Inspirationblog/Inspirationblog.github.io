@@ -94,15 +94,9 @@ footer{
 
 #text-main{
 	float:right;
-	font-family:Verdana;
-	font-style:italic;
-	font-size:35px;
+	font-size:40px;
 	color:#ffffff;
-	padding:10px;
-	margin-top:300px;
-	margin-left:200px
 	text-transform: uppercase;
-	font-style:400;
 }
 
 .contact-form{
