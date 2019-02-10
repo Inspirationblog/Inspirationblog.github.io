@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@font-face {
+  font-family: Mistral;
+  src: url(../mistral/MISTRAL.TTF);
+} 
 
 body {
   background: rgba(0, 0, 0, 0.9);
