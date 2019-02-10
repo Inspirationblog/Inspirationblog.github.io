@@ -13,12 +13,12 @@ body {
 
 .showcase::after {
   content: '';
-  height: 90vh;
+  height: 100vh;
   width: 100%;
   background-image: url("../img/matheus-ferrero-213635-unsplash.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0 -800px;
+  background-position: center;
   display: block;
   filter: blur(10px);
   -webkit-filter: blur(10px);
@@ -54,8 +54,6 @@ body {
   margin-top: 1rem;
   font-family: Mistral;
   text-align: center;
-
-
 }
 
 
@@ -184,11 +182,7 @@ footer p {
 
 /* Landscape */
 @media (max-height: 500px) {
-  .content .title,
-  .content .text {
-    display: none;
-  }
-
+  
   .content {
     top: 0;
   }
