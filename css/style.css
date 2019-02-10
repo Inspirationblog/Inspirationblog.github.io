@@ -109,6 +109,10 @@ label, input, textarea {
 	display: block;
 }
 
+form {
+  display: inline;
+}
+
 
 button {
 	border: none;

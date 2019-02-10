@@ -12,13 +12,11 @@
  <header class="showcase">
     <div class="content">
       <div class="title">
-		Inspiration
-
+		    Inspiration
       </div>
     </div>
   </header>
 
-  <!-- Services -->
   <section class="services">
     <div class="container grid-3 center">
       <div>
@@ -36,19 +34,20 @@
     </div>
   </section>
 
-  <!-- About -->
+
   <section class="about bg-light">
     <div class="container">
       <div class="grid-2">
         <div class="center">
+          <i class="fas fa-play fa-10x"></i>
         </div>
         <div>
-          <h3>Submit A Song</h3>
+          <h3 id="submit">Submit your track</h3>
           <form action="https://formspree.io/lukazz.rag@gmail.com" method="POST">
-            Artist<input type="text" name="artist">
-            Song<input type="text" name="song">
-            E-Mail<input type="email" name="_replyto">
-            <input type="submit" value="Send">
+            <label>Artist<input type="text" name="artist" class="field"></label>
+           <label>Song<input type="text" name="song" class="field"></label>
+           <label>E-Mail<input type="email" name="_replyto" class="field"></label>
+            <input type="submit" value="Submit" class="button">
           </form>
         </div>
       </div>
